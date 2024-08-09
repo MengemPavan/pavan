@@ -1,0 +1,24 @@
+.hr-line {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Dot {
+    height: 18px;
+    width: 18px;
+    background-color: #BFD2F8;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.Dot2{
+    height: 18px;
+    width: 18px;
+    background-color: #06225a;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}

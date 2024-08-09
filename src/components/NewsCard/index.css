@@ -1,0 +1,60 @@
+.News-card {
+    display: flex;
+    flex-direction: row;
+    height: 154px;
+    width: 486px;
+    border-radius: 5px;
+    box-shadow: #3e4142 0 1px 2px;
+}
+
+.News-card-img-container {
+    width: 160px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.News-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.News-card-content > p {
+    font-family: "Yeseva One";
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    color: #159EEC;
+}
+
+.News-card-content > h1 {
+    font-family: "Work Sans, Yeseva One";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #0e0f0f;
+}
+
+.News-card-actions {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.News-card-action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.News-card-actions > div > p {
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: bold;
+    color: #050505;
+}

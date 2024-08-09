@@ -1,0 +1,21 @@
+
+
+/* App.css */
+
+.Header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure they are above other content */
+  background-color: white; /* Ensure the background covers content below */
+  width: 100%;
+}
+
+.Navbar {
+  position: sticky;
+  top: 88px;
+  z-index: 1000; /* Ensure they are above other content */
+  background-color: white; /* Ensure the background covers content below */
+  width: 100%;
+}
+
+

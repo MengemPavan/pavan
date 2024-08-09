@@ -1,0 +1,54 @@
+.Navitem {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.Navitem > a {
+    color: white;
+    text-decoration: none;
+    font-family: "Work Sans", 'Times New Roman', Times, serif;    
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Navbar {
+    background-color: #1F2B6C;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 0px;
+    position: -webkit-sticky;
+    height: 80px;
+
+}
+
+.Navlist {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+   
+
+}
+
+.Appointment-btn {
+    border-radius: 20px;
+    color: rgb(78, 71, 71);
+    padding: 10px 30px;
+    border: none;
+    background-color: #f0f1f3;
+}
+
+.Search-box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color:transparent;
+    border-radius: 5px;
+    padding: 5px;
+}

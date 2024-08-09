@@ -1,0 +1,396 @@
+.Home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Hero-section {
+  background-color: #DEDAD9;
+  background-image: url("../../assets/hero-bg.jpg");
+ margin-top: 0px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ min-height: 70vh;
+ justify-content: center;
+ width: 100%;
+
+}
+
+.Hero-section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 48%;
+    
+}
+
+
+.Hero-section-Head {
+    margin: 0px;
+    text-align: start;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Work Sans";
+    color:#1F2B6C;
+}
+
+.Hero-section-para {
+    margin:0px;
+    text-align: start;
+    font-size: 18px;  
+    font-weight: bold;
+    font-family: "Work Sans";
+    color: #159EEC;
+}
+.Hero-section-img-container {
+    height: 70vh;
+    
+}
+.Hero-section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Hero-Btn {
+    color: black;
+    background-color: #BFD2F8;
+    border-radius: 15px;
+    padding: 10px 35px;
+    border: none;
+    margin-top: 16px;
+}
+
+
+
+.Welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+     margin-top:30px;
+
+}
+.Welccome-section-btn {
+    background-color: transparent;
+    color: #159EEC;
+    border: none;
+   
+
+}
+.welocme-header {
+    font-family: "work sans";
+    color: #159EEC;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.Welcome-container > h1 {
+    font-family: "Yeseva One";
+    color: #1F2B6C;
+    font-size: 32px;
+}
+
+
+
+
+.Doctors-img-container{
+  margin-top: 50px;
+}
+
+.Our-services-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 75%;
+   
+}
+
+.Our-services-section-container2 {
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.Our-services-section-header {
+    font-family: "Yeseva One";
+    color: #1F2B6C;
+    font-size: 32px;
+    margin: 0px;   
+    text-align: center;    
+}
+
+.Our-services-section-para {
+    font-family: "Roboto", sans-serif;  
+    color: #159EEC;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.Our-services-section-cards-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3f3f3f;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+
+.Our-services-section-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width:150px;
+    color: #3e4142;
+}
+.selected {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width:150px;
+    background-color: #1F2B6C;
+    color: #f4f5f4 ; 
+    border-radius: 5px;
+}
+.Our-services-section-card > div >p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.Our-services-section-card-butoon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+    
+}
+
+.Our-services-section-desctrption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+.Our-services-section-desctrption-header {
+    font-family: "Yeseva One";
+    color: #1F2B6C;
+    font-size: 25px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.list-of-features-list {
+    margin: 0px;
+    font-family:Verdana;
+    font-size: 16px;
+    font-weight:200;
+    color: hsl(0, 0%, 3%);
+    list-style:disc;
+    list-style-image: url("../../assets/check-mark.png");
+    
+    
+    
+}
+.list-of-features-list > li {
+    margin-top: 10px;
+}
+.list-of-features {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Our-services-section-imges-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap:20px;
+    height: 90%;
+}
+
+.Our-services-section-img-container {
+    display: flex;
+    flex-direction: column;
+    width:400px ;
+    height: 230px;
+
+}
+.Our-services-section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.Our-Specialties-section-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.Our-Specialties-section-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width:210px;
+   border: #f5f0f0 0.5px solid;
+    
+}
+
+
+.Our-Specialties-section-card > div >p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+
+.Our-Specialties-section-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+
+.Our-Specialties-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 75%;
+   
+}
+
+
+
+
+.Appoinment-section {
+    background-image: url('../../assets/AppoinmentDoctor.png');
+    width:99vw;
+    height: 450px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    filter:opacity(1);  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.Appoinment-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust the last value (0.7) for opacity */
+  z-index: 1;
+}
+
+.Appoinment-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+.Appoinment-section-head {
+    width: 48%;
+
+}
+.Appoinment-section-head > h1 {
+    color:#159EEC;
+    font-family: "Yeseva One";
+    font-size: 32px;
+    margin: 0px;
+}
+.Appoinment-section-head > p {
+    color:#0c0d0e;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    
+}
+.Appoinment-section-form-container {
+    width: 48%;
+}
+
+
+.Our-Doctors-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 75%;
+   
+}
+
+.Our-Doctors-section-container2 {
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+
+.News-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 75%;
+   
+}
+
+.News-section-container2 {
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
